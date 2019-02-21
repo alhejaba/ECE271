@@ -1,0 +1,32 @@
+ECE 271 Gitlab  
+https://gitlab.eece.maine.edu
+
+Use your maine.edu account name and password to login in
+
+There is a file ".gitignore" file in each lab.
+
+Basic Steps of Submission:
+(1) git add (if you have created any new source code files)
+(2) git commit (make sure to add commit message)
+(3) git push origin master 
+
+
+Git Basics:
+git init [repos-name]  --- Creates a new local repository with the specified name
+git clone [url]        --- Downloads a project and its entire version history
+git status             --- Lists all new or modified files to be commited
+git add [file]         --- Snapshots the file in preparation for versioning
+git rm  [file]         --- Deletes the file from the working directory and stages the deletion
+git diff   	       --- Shows file differences not yet staged
+git mv [file-original] [file-renamed] --- Changes the file name and prepares it for commit
+git log                --- Lists version history for the current branch
+git commit 	       --- Records file snapshots permanently in version history
+git push [alias] [branch] --- Uploads all local branch commits to GitHub
+git pull               --- Downloads bookmark history and incorporates changes
+git fetch [bookmark]   --- Downloads all history from the repository bookmark
+git reset [commit]     --- Undoes all commits afer [commit], preserving changes locally
+git stash              --- Temporarily stores all modified tracked files
+
+
+Reference:
+(1) online Git book (Chapter 2, Git Basics), http://git-scm.com/book/en/v2 

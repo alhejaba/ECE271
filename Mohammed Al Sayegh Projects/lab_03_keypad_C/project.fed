@@ -1,0 +1,7 @@
+;#<FEEDBACK># ARM Linker, 5050106: Last Updated: Wed Feb 04 21:51:15 2015
+;VERSION 0.2
+;FILE main.o
+GPIO_Pin_Init <= USED 0
+LCD_Clear <= USED 0
+LCD_Display_Name <= USED 0
+;FILE startup_stm32l1xx_md.o

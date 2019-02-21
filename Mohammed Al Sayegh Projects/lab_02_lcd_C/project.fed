@@ -1,0 +1,5 @@
+;#<FEEDBACK># ARM Linker, 5050106: Last Updated: Wed Jan 28 05:32:11 2015
+;VERSION 0.2
+;FILE main.o
+LCD_Clear <= USED 0
+;FILE startup_stm32l1xx_md.o

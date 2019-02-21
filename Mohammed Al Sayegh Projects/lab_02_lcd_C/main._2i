@@ -1,0 +1,6 @@
+-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork 
+-I "C:\Users\black_000\Documents\ECE 271\ece271_al-sayegh\lab_02_lcd_C\RTE"
+-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include
+-I C:\Keil_v5\ARM\PACK\Keil\STM32L1xx_DFP\1.0.2\Device\Include
+-D__UVISION_VERSION="513" -D_RTE_ -DSTM32L1XX_MD
+-o .\main.o --omf_browse .\main.crf --depend .\main.d --feedback ".\project.fed" "main.c"
